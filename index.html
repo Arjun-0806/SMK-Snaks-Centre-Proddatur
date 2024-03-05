@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMK Snacks & Chaat</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+
+        #title-section {
+            background-color: skyblue;
+            padding: 15px;
+            color: black;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            letter-spacing: 2px;
+        }
+        #restaurant-links {
+            text-align: center;
+            font-size: 1.1rem;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+        #restaurant-links img{
+            width: 1rem;
+            height: 1rem;
+
+        }
+    
+        #menu-introduction {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        #menu-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .menu-item {
+            width: 300px;
+            margin: 20px;
+            padding: 15px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+        
+        .menu-item:hover {
+            transform: scale(1.05);
+            box-shadow: 3px 3px 0px aqua;
+        }
+
+        .menu-item img {
+            max-width: 10rem;
+            height: 10rem;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        #owner-section {
+            text-align: center;
+            padding: 20px;
+            background-color: #e0e0e0;
+        }
+
+        #marquee-section {
+            text-align: center;
+            background-color: #333;
+            color: #ffcc00; /* yellow color for scrolling text */
+            padding: 10px;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="title-section">
+        <h1>SMK Snacks & Chaat</h1>
+        <p>Welcome to our delightful world of Home made Foods</p>
+    </div>
+    <div id="menu-introduction">
+        <h1>Our menu items are</h1>
+    </div>
+    <div id="menu-section">
+        <div class="menu-item" >
+            <img src="Veg Sandwich.jpeg" alt="Veg Sandwich">
+            <h2>Veg Sandwich</h2>
+            <p>combination of fresh vegetables and zesty condiments nestled between soft slices of bread, delivering a burst of flavors in every bite.</p>
+        </div>
+
+        <div class="menu-item">
+            <img src="veg cheese Sandwich.jpeg"  alt="Veg Cheese Sandwich">
+            <h2>Veg Cheese Sandwich</h2>
+            <p>fresh vegetables and gooey cheese, grilled to perfection for a taste that melts in your mouth.</p>
+        </div>
+        <div class="menu-item">
+            <img src="veg Con Ssndwich with Cheese.jpeg" alt="Veg Corn Sandwich with Cheese">
+            <h2>Veg Corn Sandwich with Cheese</h2>
+            <p>A perfect fusion of sweet corn, veggies, and melted cheese in every bite!</p>
+        </div>
+        <div class="menu-item">
+            <img src="Panner Sandwich.jpeg" alt="Paneer Sandwich">
+            <h2>Paneer Sandwich</h2>
+            <p>perfect harmony of creamy paneer and fresh veggies nestled between layers of soft bread.</p>
+        </div>
+        <div class="menu-item">
+            <img src="Cutlet.jpeg" alt="Chaat (cutlet)">
+            <h2>Chaat (cutlet)</h2>
+            <p>A delightful snack here featuring spicy chickpea curry served with crispy and tangy toppings.</p>
+        </div>
+        <div class="menu-item">
+            <img src="Pani puri.jpeg" alt="Panipuri ">
+            <h2>Panipuri </h2>
+            <p>Description of Item 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="menu-item">
+            <img src="Pav Bhaji.jpeg" alt="Pav bhaji">
+            <h2>Pav bhaji</h2>
+            <p>delicious and flavorful Indian street food, consisting of a spicy mashed vegetable blend served with buttery pav (bread).</p>
+        </div>
+        <div class="menu-item" id="item1">
+            <img src="Maggie.jpeg" alt="Maggi">
+            <h2>Maggi</h2>
+            <p>Instant comfort in a bowl, a classic blend of noodles and savory seasoning.</p>
+        </div>
+        <div class="menu-item" id="item2">
+            <img src="Bhel Puri.jpeg" alt="Bhel Puri">
+            <h2>Bhel Puri</h2>
+            <p>A delightful  snack bursting with a symphony of flavors, combining puffed rice, vegetables, chutneys, and spices.</p>
+        </div>
+        <div class="menu-item" id="item3">
+            <img src="French Fries.jpeg" alt="French Fries">
+            <h2>French Fries</h2>
+            <p>Golden and crispy French Fries, a timeless classic that satisfies every crunchy craving with perfection.</p>
+        </div>
+        <div class="menu-item" id="item4">
+            <img src="Bread Bajji.jpeg" alt="Bread Bajji">
+            <h2>Bread Bajji</h2>
+            <p>A delectable fusion snack featuring slices of bread coated in a spiced gram flour batter, deep-fried to golden perfection.</p>
+        </div>
+        <div class="menu-item" id="item5">
+            <img src="Vada Pav.jpeg" alt="Vada pav">
+            <h2>Vada pav</h2>
+            <p> A delicious snack delight featuring a spiced potato fritter encased in a soft bun, served with chutneys.</p>
+        </div>
+        <div class="menu-item" id="item6">
+            <img src="Nippat Masala.jpeg" alt="Nippat Masala">
+            <h2>Nippat Masala</h2>
+            <p>A flavorful snack, delivering the perfect blend of spices in every bite.</p>
+        </div>
+        <div class="menu-item" id="item7">
+            <img src="dahi_puri_chaat.jpg" alt="Dahi Panipuri">
+            <h2>Dahi Panipuri</h2>
+            <p>Crispy puris filled with tangy tamarind water, spiced potatoes, and yogurt, creating a delightful burst of flavors in every bite.</p>
+        </div>
+        <div class="menu-item" id="item8">
+            <img src="dahi-papdi.jpg" alt="Dahi Chaat">
+            <h2>Dahi chaat</h2>
+            <p>A delightful blend of crispy ragda patties topped with yogurt, chutneys, and spices, creating a burst of flavors in every bite.</p>
+        </div>
+
+      
+    </div>
+
+    <div id="owner-section">
+        <h2>Restuarant Information</h2>
+        <p>Owner Name: S.Kishore Kumar</p>
+        <p>Address:Y.M.R Colony , Opp to Vignans Girls Jr College</p>
+        <p>City: Proddatur , Kadapa District</p>
+    </div>
+    <div id="restaurant-links">
+        <h2>Find Us Online</h2>
+        <p>We are available on:</p>
+        <div>
+        <img src="data:image/png;base64,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" alt="Swiggy">
+        <a href="https://www.zomato.com/proddatur/smk-snacks-proddatur-locality/order" target="_blank">Zomato</a><br>
+        </div>
+        <div>
+        <img src="data:image/png;base64,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" alt="Zomato">
+        <a href="https://www.swiggy.com/restaurants/smk-snacks-and-chaat-saikuteer-road-rameswaram-proddatur-428364" target="_blank">Swiggy</a><br>
+        </div>
+        <div>
+        <img src="data:image/png;base64,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" alt="AyesZ">
+        <a href="https://ayesz.in/"target="_blank">AyesZ</a>
+        </div>
+    </div>
+    <div id="marquee-section">
+        <marquee behavior="scroll" direction="left">Visit our Restuarant for the best snacks and chaat! items that tastes like your home food</marquee>
+    </div>
+
+</body>
+</html>
